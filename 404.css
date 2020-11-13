@@ -47,6 +47,16 @@ p{
   left: 1px;
 }
 
+.doigt1:hover{
+  filter: opacity(0);
+}
+
+.Interogation:hover .doigt1{
+  opacity: 1;
+}
+.Interogation:hover::after .doigt1{
+  opacity: 1;
+}
 .doigt2{
   margin: 0px;
   opacity: 0;
@@ -78,13 +88,6 @@ p{
 
 
 
-.doigt1:hover{
-  filter: opacity(0);
-}
-
-.Interogation:hover .doigt1{
-  opacity: 1;
-}
 
 
 .doigt2:hover{
